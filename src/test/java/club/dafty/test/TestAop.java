@@ -1,5 +1,6 @@
 package club.dafty.test;
 
+import club.dafty.service.Student;
 import club.dafty.service.impl.StudentImpl;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,7 +18,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @ContextConfiguration(locations = "classpath:applicationContext.xml")
 public class TestAop {
     @Autowired
-    StudentImpl studentImpl;
+    Student studentImpl;
 
     @Test
     public void myTest(){

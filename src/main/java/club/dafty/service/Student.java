@@ -1,5 +1,8 @@
 package club.dafty.service;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
 /**
  * @author leechengchao@foxmail.com
  * @version 1.0
